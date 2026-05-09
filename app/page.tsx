@@ -10,7 +10,7 @@ const PUBLIC_KEY  = "q_nuzyb4WLIy6kboy";
 
 const stats = [
   { value: "2 years", label: "Experience" },
-  { value: "40+", label: "Project Completed" },
+  { value: "20+", label: "Project Completed" },
 ];
 
 const workProcess = [
@@ -26,23 +26,12 @@ const workProcess = [
     desc: "Create responsive and modern user interfaces using Next.js, React, and Tailwind CSS.",
     icon: "💻",
   },
-  {
-    number: "03",
-    title: "Database Management",
-    desc: "Manage and optimize databases using MySQL, PostgreSQL, and Prisma ORM.",
-    icon: "🗄️",
-  },
-  {
-    number: "04",
-    title: "Development Tools",
-    desc: "Use modern development tools like Git, GitHub, Figma, Postman, and VS Code.",
-    icon: "🛠️",
-  },
+  
 ];
 
 const portfolioItems = [
   {
-    title: "InvDocs",
+    title: "PDAM",
     category: "Document Management System",
     color: "from-blue-500 to-cyan-400",
   },
@@ -52,7 +41,7 @@ const portfolioItems = [
     color: "from-emerald-500 to-green-400",
   },
   {
-    title: "Digital Archive Website",
+    title: "Toko Online", 
     category: "Web Application",
     color: "from-purple-500 to-violet-400",
   },
@@ -140,7 +129,7 @@ export default function Home() {
           from_email: form.email,
           subject:    form.subject,
           message:    form.message,
-          to_email:   "kvn4.200581@gmail.com",
+          to_email:   "valentinozay4@gmail.com",
         },
         PUBLIC_KEY
       );
@@ -182,19 +171,20 @@ export default function Home() {
               Available for Freelance Work
             </div>
 
-            <h1 className="text-5xl lg:text-6xl font-extrabold text-[#6FD1D7] leading-[1.1] tracking-tight">
-              Hello, I&apos;m{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6FD1D7] to-[#5fbfc4]">
-                Mohammad Kevin
+            <h1 className="text-5xl lg:text-7xl font-black leading-[1.1] tracking-tight">
+              <span className="text-gray-800">Hello, I'm</span>
+              <br />
+              <span className="bg-gradient-to-r from-[#6FD1D7] via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
+                Ananda Valentino
               </span>
             </h1>
+            <p className="text-gray-600 text-lg leading-relaxed max-w-lg border-l-4 border-[#6FD1D7] pl-5">
+              Frontend Developer & UI enthusiast — crafting responsive, high-performance
+              web experiences with React, Next.js, and modern design systems.
+            </p>
 
             <p className="text-gray-500 text-lg leading-relaxed max-w-lg">
-              I&apos;m a Backend Fullstack Developer with a passion for building{" "}
-              <span className="text-[#6FD1D7] font-semibold">scalable</span> &{" "}
-              <span className="text-[#6FD1D7] font-semibold">performant</span> web
-              applications. I build immersive and beautiful web applications through
-              creative design.
+              A Frontend Developer with a passion for building responsive and interactive web applications. With expertise in HTML, CSS, JavaScript, React, and Next.js, I create modern user interfaces and seamless user experiences. Let’s collaborate to bring your ideas to life!
             </p>
 
             <div className="flex items-center gap-4 mt-2">
@@ -222,14 +212,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative flex justify-center lg:justify-end">
-            <div className="relative w-72 h-80 lg:w-96 lg:h-[420px]">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#6FD1D7] to-purple-100 rounded-3xl rotate-3 scale-95" />
-              <div className="relative w-full h-full overflow-hidden rounded-3xl shadow-2xl shadow-[#6FD1D7]/40">
+           <div className="relative flex justify-center lg:justify-end">
+            <div className="relative w-72 h-80 lg:w-[380px] lg:h-[420px] animate-float">
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#6FD1D7] to-purple-500 rounded-[2.5rem] rotate-6 scale-[1.02] opacity-80" />
+              <div className="absolute inset-0 bg-white/30 backdrop-blur-sm rounded-[2.5rem] shadow-2xl overflow-hidden border border-white/40">
                 <img
-                  src="/images/profile.png"
+                  src="/images/bromo.jpeg"
                   alt="Profile"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center rounded-[2.3rem] hover:scale-110 transition duration-700"
                 />
               </div>
             </div>
@@ -242,7 +232,7 @@ export default function Home() {
           <div className="rounded-3xl p-8 lg:p-14 flex flex-col lg:flex-row gap-12 items-center shadow-sm border border-gray-100">
             <div className="flex-shrink-0 w-56 h-56 rounded-2xl overflow-hidden shadow-xl shadow-[#6FD1D7]/40">
               <img
-                src="/images/profile.png"
+                src="/images/jek.jpeg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -255,7 +245,7 @@ export default function Home() {
                 </p>
                 <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight">
                   I am Professional{" "}
-                  <span className="text-[#6FD1D7]">Fullstack Developer</span>
+                  <span className="text-[#6FD1D7]">Frontend Developer</span>
                 </h2>
               </div>
               <p className="text-gray-500 leading-relaxed">
@@ -411,8 +401,8 @@ export default function Home() {
               <div className="flex flex-col gap-4">
                 {[
                   { icon: "📍", label: "Location", value: "Malang, Indonesia" },
-                  { icon: "📧", label: "Email", value: "kvn4.200581@gmail.com" },
-                  { icon: "📞", label: "Phone", value: "+62 812-3456-7890" },
+                  { icon: "📧", label: "Email", value: "valentionozaky4@gmail.com" },
+                  { icon: "📞", label: "Phone", value: "+62 895-2653-7963" },
                 ].map((info) => (
                   <div
                     key={info.label}

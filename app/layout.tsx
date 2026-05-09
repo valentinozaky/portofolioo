@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Mohammad Kevin - Fullstack Developer",
-  description: "A Backend Developer with a passion for building efficient and scalable web applications. With expertise in Node.js, Express, and MongoDB, I create robust APIs and seamless user experiences. Let's collaborate to bring your ideas to life!",
+  title: "Ananda valentino zaky - Frontend Developer",
+  description: "A Frontend Developer with a passion for building responsive and interactive web applications. With expertise in HTML, CSS, JavaScript, React, and Next.js, I create modern user interfaces and seamless user experiences. Let’s collaborate to bring your ideas to life!",
 };
 
 export default function RootLayout({

@@ -45,10 +45,10 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-16">
                     <Link href="/" className="flex items-center gap-2 group">
                         <div className="w-9 h-9 bg-[#6FD1D7] rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-md shadow-[#6FD1D7] group-hover:bg-[#5fbfc4] group-hover:rotate-6 transition-all duration-300">
-                            M
+                            Z
                         </div>
                         <span className="font-extrabold text-[#162842] text-lg tracking-tight">
-                            Mohammad Kevin
+                            Ananda valentino zaky
                         </span>
                     </Link>
 
